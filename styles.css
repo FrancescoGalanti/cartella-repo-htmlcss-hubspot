@@ -6,7 +6,9 @@
   margin: 0;
 }
 
-body{
-  background-image: url("img/jumbotron.png");
+/* Nav setting */
 
+header.Primo-blocco{
+  background-color: grey;
+  height: 200px;
 }
