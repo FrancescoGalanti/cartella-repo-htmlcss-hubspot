@@ -10,10 +10,12 @@
 
 
 
-header.Primo-blocco{
+header.Primo-blocco1{
 background-color: lightblue;
 height: 71px;
 }
+
+
 
 
 nav.nav-upper{
@@ -81,6 +83,7 @@ hr{
 
 /* Layout prima parte inferiore */
 
+
 nav.nav-lower{
   height: 71px;
   margin-left: 150px;
@@ -98,6 +101,7 @@ img{
   height: 60px;
   width: 60px;
   float: left;
+  margin-left: 20px;
 }
 
 .Float3{
@@ -108,7 +112,8 @@ img{
 
 /* Layout main */
 
-main.Primo-blocco{
-  margin-left: 150px;
-  background-image: url("../img/jumbotron.png");
+
+
+main{
+  background-color: red;
 }
