@@ -81,8 +81,34 @@ hr{
 
 /* Layout prima parte inferiore */
 
-.nav-lower{
+nav.nav-lower{
   height: 71px;
   margin-left: 150px;
   margin-right: 150px;
+}
+
+nav.nav-lower::after{
+  clear: both;
+  content: "";
+  display: table;
+
+}
+
+img{
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+
+.Float3{
+  float: right;
+  margin-top: 23px;
+
+}
+
+/* Layout main */
+
+main.Primo-blocco{
+  margin-left: 150px;
+  background-image: url("../img/jumbotron.png");
 }
