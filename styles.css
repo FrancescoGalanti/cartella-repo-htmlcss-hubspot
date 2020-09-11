@@ -13,8 +13,23 @@ header.Primo-blocco{
   height: 200px;
 }
 
+nav.nav-upper{
+  margin-left: 50px;
+}
+
 nav.nav-upper::after{
   display: table;
   content: "";
   clear: both;
+}
+
+/* Layout prima parte superiore */
+.Float{
+  float: left;
+}
+
+/* layout seconda parte superiore */
+
+.Float2{
+  float: right;
 }
