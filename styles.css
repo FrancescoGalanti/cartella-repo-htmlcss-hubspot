@@ -97,7 +97,7 @@ nav.nav-lower::after{
 
 }
 
-img{
+nav.nav-lower img{
   height: 60px;
   width: 60px;
   float: left;
@@ -111,9 +111,12 @@ img{
 }
 
 /* Layout main */
+main.Primo-blocco2::before{
+  clear: both;
+  display: table;
+  content: "";
+}
 
-
-
-main{
-  background-color: red;
+.contaner{
+  position: relative;
 }
