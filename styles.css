@@ -192,10 +192,40 @@ header.Secondo-blocco{
 }
 
 .Kubrick{
-  padding-left: 150px;
+  padding-left: 215px;
 }
 
 .Text-Kubrick{
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Main secondo blocco */
+.Hubspot{
+  height: 275px;
+  background-color: white;
+  margin-left: 175px;
+  margin-right: 175px;
+  padding-left: 100px;
+}
+
+.Learn{
+  background-color: red;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.text-learn{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+
+}
+
+.CRM{
+  display: inline-block;
 }
