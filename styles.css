@@ -120,3 +120,12 @@ main.Primo-blocco2::before{
 .contaner{
   position: relative;
 }
+
+main.Primo-blocco2 img{
+  background-size: cover;
+  position: absolute;
+}
+
+.text{
+  .
+}
