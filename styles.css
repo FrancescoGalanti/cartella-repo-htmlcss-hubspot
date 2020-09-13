@@ -12,7 +12,7 @@
 
 header.Primo-blocco1{
 background-color: lightblue;
-height: 71px;
+height: 142px;
 }
 
 
@@ -21,6 +21,7 @@ height: 71px;
 nav.nav-upper{
 margin-left: 150px;
 margin-right: 150px;
+height: 71px;
 
 
 }
@@ -82,12 +83,17 @@ hr{
 }
 
 /* Layout prima parte inferiore */
+.Contaner{
+  background-color: white;
+}
 
 
-nav.nav-lower{
+
+  nav.nav-lower{
   height: 71px;
   margin-left: 150px;
   margin-right: 150px;
+  background-color: white;
 }
 
 nav.nav-lower::after{
@@ -111,23 +117,6 @@ nav.nav-lower img{
 }
 
 /* Layout main */
-main.Primo-blocco2::before{
-  clear: both;
-  display: table;
-  content: "";
-}
-
-.contaner{
-  position: relative;
-}
-
-main.Primo-blocco2 img{
-background-size: cover;
-position: absolute;
-
-}
-
-
-.text{
+main.Primo-blocco2{
 
 }
