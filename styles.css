@@ -180,7 +180,22 @@ font-family: 'Roboto', sans-serif;
  }
 
  /* Header secondo blocco */
+
+
+.Contaner6{
+  background-color: lightblue
+}
+
 header.Secondo-blocco{
-  margin-left: auto;
+  margin: auto;
   width: 50%;
+}
+
+.Kubrick{
+  padding-left: 150px;
+}
+
+.Text-Kubrick{
+  text-align: center;
+  margin-top: 20px;
 }
