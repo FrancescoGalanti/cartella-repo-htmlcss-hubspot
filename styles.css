@@ -117,11 +117,28 @@ nav.nav-lower img{
 }
 
 /* Layout main */
-.Contaner2{
+.contaner2{
   position: relative;
+  height: 600px;
+  background-image: url("img/jumbotron.png");
+  background-size: cover;
+  background-position: center;
 }
 
-.Screen{
+.layover{
   position: absolute;
-  z-index: 10;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 45);
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
