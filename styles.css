@@ -210,6 +210,7 @@ header.Secondo-blocco{
   margin-left: 175px;
   margin-right: 175px;
   padding-left: 100px;
+  position: relative;
 }
 
 /* Layotu Hubspot Right */
@@ -217,8 +218,10 @@ header.Secondo-blocco{
 .Hubspot-right{
   border: 1px solid black;
   width: 350px;
-  
+  padding-top: 40px;
 }
+
+
 
 
 
@@ -239,7 +242,15 @@ header.Secondo-blocco{
 
 }
 
-.CRM{
-display: inline-block;
+.Hubspot-left{
+  border: 1px solid black;
+  width: 550px;
+  position: absolute;
+  top: 0;
+  margin-left: 350px;
+  padding-top: 39px;
+}
 
+.Title-Hubspot{
+ text-shadow: 1px 1px 2px black;
 }
