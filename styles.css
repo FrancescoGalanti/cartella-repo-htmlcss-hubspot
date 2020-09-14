@@ -201,6 +201,9 @@ header.Secondo-blocco{
   margin-bottom: 20px;
 }
 /* Main secondo blocco */
+
+
+
 .Hubspot{
   height: 275px;
   background-color: white;
@@ -208,6 +211,8 @@ header.Secondo-blocco{
   margin-right: 175px;
   padding-left: 100px;
 }
+
+
 
 .Learn{
   background-color: red;
@@ -227,5 +232,6 @@ header.Secondo-blocco{
 }
 
 .CRM{
-  display: inline-block;
+display: inline-block;
+
 }
