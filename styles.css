@@ -22,8 +22,10 @@ nav.nav-upper{
 margin-left: 150px;
 margin-right: 150px;
 height: 71px;
+}
 
-
+nav.nav-upper li{
+  display: inline-block;
 }
 
 nav.nav-upper::after{
@@ -47,14 +49,21 @@ nav.nav-upper::after{
   margin-top: 30px;
 }
 
+
+
+i.fas.fa-search{
+  margin-right: 30px;
+}
+
 .Box{
   background-color: white;
   border: 1px solid red;
   height: 30px;
   border-radius: 5px;
+  margin-right: 30px;
 }
 
-nav.lower li{
+nav.nav-lower li{
   display: inline-block;
   margin-left: 30px;
 }
@@ -205,28 +214,27 @@ header.Secondo-blocco{
 
 
 .Hubspot{
-  height: 275px;
-  background-color: white;
+
   margin-left: 175px;
   margin-right: 175px;
   padding-left: 100px;
   position: relative;
+  background-color: white;
+  height: 280px;
 }
 
 /* Layotu Hubspot Right */
 
 .Hubspot-right{
-  border: 1px solid black;
   width: 350px;
   padding-top: 20px;
 }
 
 .Hubspot-right img {
-  height: 100px;
+  height: 96px;
   margin-left: 65px;
+  margin-top: 20px;
 }
-
-
 
 
 
@@ -248,7 +256,7 @@ header.Secondo-blocco{
 }
 
 .Hubspot-left{
-  border: 1px solid black;
+
   width: 550px;
   position: absolute;
   top: 0;
@@ -276,10 +284,103 @@ header.Secondo-blocco{
     left: 210px;
 }
 
-.list-icon{
-  display: inline-block;
+.Hubapot-left{
+  clear: both;
+  display: table;
+  content: "";
 }
 
-.fab fa-algolia{
-  color: red;
+.list-icon{
+  display: inline-block;
+  margin-left: 20px;
 }
+
+.Float4{
+  float: Left;
+  margin-top: 23px;
+
+}
+
+i.fab.fa-algolia{
+  margin-right: 30px;
+  color:red;
+}
+
+
+/* Layout footer */
+
+footer.Secondo-blocco{
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+footer.Secondo-blocco::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.Float6{
+  margin-top: 30px;
+  height: 700px;
+  float: left;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+
+.col-left{
+  width: 31.5%;
+  margin-right: 1.5%;
+  border: 1px solid red;
+}
+
+.col-center{
+ width: 31.5%;
+ margin-right: 1.5%;
+ border: 1px solid red;
+}
+
+.col-right{
+  width: 34%;
+  border: 1px solid red;
+}
+
+footer.Secondo-blocco img{
+  margin-left: 36px;
+}
+
+.Title-Hubspot2{
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Info-promo2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Linea3{
+  border: 1px solid black;
+  margin: 0 15px;
+  margin-top: 60px;
+}
+
+.Info-Feat{
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Lista-10{
+ text-decoration: none;
+ margin-left: 20px;
+}
+
+i.fas.fa-ad{
+  color: orange;
+  margin-right: 20px;
+}
+/* Layout terzo blocco */
