@@ -54,7 +54,7 @@ nav.nav-upper::after{
   border-radius: 5px;
 }
 
-li{
+nav.lower li{
   display: inline-block;
   margin-left: 30px;
 }
@@ -218,7 +218,12 @@ header.Secondo-blocco{
 .Hubspot-right{
   border: 1px solid black;
   width: 350px;
-  padding-top: 40px;
+  padding-top: 20px;
+}
+
+.Hubspot-right img {
+  height: 100px;
+  margin-left: 65px;
 }
 
 
@@ -253,4 +258,28 @@ header.Secondo-blocco{
 
 .Title-Hubspot{
  text-shadow: 1px 1px 2px black;
+}
+
+.Info-promo{
+  margin-top: 25px;
+}
+
+.Feature{
+  margin-top: 20px;
+}
+
+.Barra {
+    border: 1px solid red;
+    width: 250px;
+    position: absolute;
+    top: 160px;
+    left: 210px;
+}
+
+.list-icon{
+  display: inline-block;
+}
+
+.fab fa-algolia{
+  color: red;
 }
