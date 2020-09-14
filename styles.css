@@ -415,20 +415,15 @@ margin: 0 150px;
 
 
 
-.row{
-  margin-bottom: 20px;
-}
-
-.row::after{
-  content: "";
+.COL::after{
   display: table;
+  content: "";
   clear: both;
 }
 
 .COL{
   float: left;
   width: 200px;
-  padding: 0 20px;
   height: 150px;
   background: purple;
 }
