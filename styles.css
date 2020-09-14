@@ -397,7 +397,7 @@ margin: 0 150px;
 
 .Contaner10{
   background-color:blue;
-  height:700px;
+  height:1000px;
 }
 
 .Lorem{
@@ -413,9 +413,7 @@ margin: 0 150px;
   margin-bottom: 50px;
 }
 
-.contaner12{
-  width: 900px;
-}
+
 
 .row{
   margin-bottom: 20px;
@@ -433,4 +431,10 @@ margin: 0 150px;
   padding: 0 20px;
   height: 150px;
   background: purple;
+}
+
+
+
+.Product{
+  text-align: center;
 }
