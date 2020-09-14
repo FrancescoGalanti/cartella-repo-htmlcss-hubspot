@@ -209,6 +209,11 @@ header.Secondo-blocco{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.Desio{
+  text-align: center;
+  margin-bottom: 20px;
+}
 /* Main secondo blocco */
 
 
@@ -332,18 +337,18 @@ footer.Secondo-blocco::after{
 .col-left{
   width: 31.5%;
   margin-right: 1.5%;
-  border: 1px solid red;
+
 }
 
 .col-center{
  width: 31.5%;
  margin-right: 1.5%;
- border: 1px solid red;
+
 }
 
 .col-right{
   width: 31.5%;
-  border: 1px solid red;
+  
   margin-left: 2.5%;
 }
 
@@ -405,7 +410,7 @@ margin: 0 150px;
   font-size: 12px;
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .contaner12{
@@ -424,7 +429,7 @@ margin: 0 150px;
 
 .COL{
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 0 20px;
 }
 .Product{
