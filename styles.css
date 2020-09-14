@@ -385,3 +385,48 @@ i.fas.fa-ad{
   margin-right: 20px;
 }
 /* Layout terzo blocco */
+
+main.Terzo-blocco{
+margin: 0 150px;
+}
+
+.Contaner10{
+  background-color:blue;
+  height:500px;
+}
+
+.Lorem{
+  text-align: center;
+  color: white;
+}
+
+.Lorem2{
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contaner12{
+
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.COL{
+  float: left;
+  width: 33.33%;
+  padding: 0 20px;
+}
+.Product{
+  position: relative;
+}
