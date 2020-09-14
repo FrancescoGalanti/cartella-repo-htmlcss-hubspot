@@ -342,8 +342,9 @@ footer.Secondo-blocco::after{
 }
 
 .col-right{
-  width: 34%;
+  width: 31.5%;
   border: 1px solid red;
+  margin-left: 2.5%;
 }
 
 footer.Secondo-blocco img{
