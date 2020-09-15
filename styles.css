@@ -484,16 +484,16 @@ margin: 0 150px;
 
 /* Layout qurto blocco */
 header.Quarto-blocco{
-  height: 700px;
+  height: 200px;
   background-color: white;
 }
 
 .Contaner22 {
-  border: 1px solid red;
   width: 800px;
-  height: 250px;
+  height: 140px;
   margin-left: 300px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .conntaner22::after{
@@ -511,7 +511,50 @@ header.Quarto-blocco{
   float: left;
 }
 
+.Sub-contaner1{
+  width: 600px;
+}
+
 .Row-right{
   float: right;
+}
 
+.Sub-contaner1 img{
+  margin: 10px;
+}
+
+.Contaner21{
+  height: 300px;
+  border: 1px solid red;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-bottom: 30px;
+}
+
+.Contaner21::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+.Sub-contaner5{
+width: 400px;
+float: left;
+}
+
+
+.Serafin{
+  margin-bottom: 15px;
+}
+
+.Serafin2{
+  margin-top: 20px;
+}
+
+.Contaner21 img{
+  float: right;
+}
+
+.Contaner30{
+  height: 500px;
+  background-color: grey;
 }
