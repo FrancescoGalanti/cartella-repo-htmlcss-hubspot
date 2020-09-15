@@ -422,6 +422,19 @@ margin: 0 150px;
   color: white;
 }
 
+.Contaner20 img{
+  height: 20px;
+}
+
+.General-info2{
+  display: block;
+}
+
+.general-info{
+  font-size: 10px;
+  font-style: italic;
+}
+
 
 .COL1::after,
 .COL2::after,
