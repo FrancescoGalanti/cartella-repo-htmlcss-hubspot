@@ -418,7 +418,8 @@ margin: 0 150px;
 }
 
 
-.COL::after{
+.COL::after,
+.COL1::after{
   display: table;
   content: "";
   clear: both;
@@ -429,4 +430,14 @@ margin: 0 150px;
   width: 200px;
   height: 150px;
   background: purple;
+  border: 1px solid red;
+  border-style: solid solid none none;
 }
+
+.COL1{
+  float: left;
+  width: 200px;
+  height: 150px;
+  background: purple;
+  border: 1px solid red;
+  }
