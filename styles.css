@@ -397,7 +397,7 @@ margin: 0 150px;
 
 .Contaner10{
   background-color:blue;
-  height:1000px;
+  height:600px;
 }
 
 .Lorem{
@@ -415,29 +415,99 @@ margin: 0 150px;
 
 .Contaner20{
   margin-left: 150px;
+  text-align: center;
+  color: white;
 }
 
 
-.COL::after,
-.COL1::after{
+.COL1::after,
+.COL2::after,
+.COL3::after,
+.COL4::after,
+.COL5::after,
+.COL6::after,
+.COL7::after,
+.COL8::after{
   display: table;
   content: "";
   clear: both;
 }
 
-.COL{
+.COL1,
+.COL2,
+.COL3,
+.COL4,
+.COL5,
+.COL6,
+.COL7,
+.COL8{
   float: left;
   width: 200px;
   height: 150px;
-  background: purple;
-  border: 1px solid red;
-  border-style: solid solid none none;
+  border: 1px solid white;
 }
 
 .COL1{
-  float: left;
-  width: 200px;
-  height: 150px;
-  background: purple;
+  border-style: none solid solid none;
+}
+
+.COL2{
+  border-style: none solid solid solid;
+}
+
+.COL3{
+  border-style: none solid solid solid;
+}
+
+.COL4{
+  border-style: none solid none solid;
+}
+
+.COL5{
+  border-style: solid none none none;
+}
+
+.COL6{
+  border-style: solid none none solid;
+}
+
+.COL7{
+  border-style: solid none none solid;
+}
+
+.COL8{
+  border-style: solid solid none solid;
+}
+
+/* Layout qurto blocco */
+header.Quarto-blocco{
+  height: 700px;
+  background-color: white;
+}
+
+.Contaner22 {
   border: 1px solid red;
-  }
+  width: 800px;
+  height: 250px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.conntaner22::after{
+  clear: both;
+  display: table,block;
+  content: "";
+}
+
+.Sub-contaner{
+  width: 100px;
+  text-align: center;
+}
+
+.Row-left{
+  float: left;
+}
+
+.Row-right{
+  
+}
